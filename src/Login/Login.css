@@ -49,6 +49,10 @@
     width: 18rem;
 }
 
+.login__input::placeholder{
+    color: #969595;
+}
+
 .login__enviar{
     text-transform: uppercase;
     color: white;

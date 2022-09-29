@@ -40,7 +40,7 @@ const Login = () => {
           name="lastName"
           type="text"
           className='login__input'
-          placeholder='lastName'
+          placeholder='last name'
           value={data.lastName}
           onChange={handleChange}
           required
@@ -66,7 +66,7 @@ const Login = () => {
           required
         />
 
-        <Link to="/hola" className='link__enviar'>
+        <Link to={`/inicio`} className='link__enviar'>
           <button className='login__enviar' onClick={guardarUsuario}>
             Sign up 
           </button>
